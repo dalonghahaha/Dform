@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dform Demo</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<section id="container" style="width: 500px"></section>
+</body>
+</html>
+<script type="text/javascript" src="../lib/Dform.js"></script>
+<script type="text/javascript">
+	new Dform({
+		debug: true,
+		css: '../theme/default.css',
+		container : "container",
+		id : 'myform',
+		submit_url : '../submit.php',
+		config_aysnc : true,
+		config_url : '../config/myform.json'
+	});
+</script>

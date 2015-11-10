@@ -1,0 +1,15 @@
+[{
+    "type": "text",
+    "name": "name",
+    "label": "用户名",
+    "placeholder": "请输入用户名",
+    "required": true,
+    "error_message": "用户名不能为空"
+},{
+    "type": "text",
+    "name": "email",
+    "label": "邮箱",
+    "placeholder": "请输入邮箱",
+    "required": true,
+    "error_message": "邮箱不能为空"
+}]

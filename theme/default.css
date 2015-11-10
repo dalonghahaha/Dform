@@ -1,0 +1,71 @@
+.Dform-base {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.Dform-element-container {
+    margin-top: 5px;
+    width: 100%;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.Dform-element-label {
+    width: 75px;
+    text-align: right;
+    padding-right: 5px;
+    float: left;
+}
+
+.Dform-element-content {
+    width: 75%;
+    text-align: left;
+    padding-left: 5px;
+    float: left;
+}
+
+.Dform-element-warn {
+    width: 100%;
+    color: red;
+    display: none;
+    text-align: left;
+    padding-left: 85px;
+    clear: both;
+}
+
+.Dform-element-input {
+    width: 300px;
+    height: 25px;
+    padding-left: 2px;
+}
+
+.Dform-opration {
+    margin-top: 5px;
+    width: 100%;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.Dform-opration-submit {
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #3385ff;
+    color: #FFFFFF;
+    border: 0px;
+    height: 30px;
+    width: 50px;
+    border-radius:5px;
+    font-size: 14px;
+}
+
+.Dform-opration-reset {
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #60b044;
+    color: #FFFFFF;
+    border: 0px;
+    height: 30px;
+    width: 50px;
+    border-radius:5px;
+    font-size: 14px;
+}
